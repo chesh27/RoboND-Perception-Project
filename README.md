@@ -33,6 +33,7 @@ Project:
 
 Results: 
 - I was able to identify and correctly label 3 out of 3 objects in the first world, 4 out of 5 in the second and 8/8 in the third world 
+- The project Writeup contains a detailed account of the results including images of the labeled tabletop objects.  
 
 # Project Setup
 For this setup, catkin_ws is the name of active ROS Workspace. This can be created by: 
