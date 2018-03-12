@@ -35,8 +35,7 @@ Results:
 - I was able to identify and correctly label 3 out of 3 objects in the first world, 4 out of 5 in the second and 8/8 in the third world 
 
 # Project Setup
-For this setup, catkin_ws is the name of active ROS Workspace, if your workspace name is different, change the commands accordingly
-If you do not have an active ROS workspace, you can create one by:
+For this setup, catkin_ws is the name of active ROS Workspace. This can be created by: 
 
 ```sh
 $ mkdir -p ~/catkin_ws/src
@@ -49,8 +48,6 @@ Now that you have a workspace, clone or download this repo into the src director
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/udacity/RoboND-Perception-Project.git
 ```
-### Note: If you have the Kinematics Pick and Place project in the same ROS Workspace as this project, please remove the 'gazebo_grasp_plugin' directory from the `RoboND-Perception-Project/` directory otherwise ignore this note. 
-
 Now install missing dependencies using rosdep install:
 ```sh
 $ cd ~/catkin_ws
@@ -90,8 +87,6 @@ Once Gazebo is up and running, make sure you see following in the gazebo world:
 
 - Dropboxes on either sides of the robot
 
-
-If any of these items are missing, please report as an issue on [the waffle board](https://waffle.io/udacity/robotics-nanodegree-issues).
 
 In your RViz window, you should see the robot and a partial collision map displayed:
 
