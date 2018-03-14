@@ -43,7 +43,6 @@ $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/
 $ catkin_make
 ```
-
 Now that you have a workspace, clone or download this repo into the src directory of your workspace:
 ```sh
 $ cd ~/catkin_ws/src
