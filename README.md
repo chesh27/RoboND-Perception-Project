@@ -10,7 +10,7 @@ I used the filters listed below to take tabletop.pcd as input and output a filte
 - PassThrough Filter 
 - Extract Indices Filter 
 - RANSAC Plane Fitting (Random Sample Consensus) 
-- Statistical Outlier Removal Filter 
+- Statistical Outlier Removal Filter  
 
 Exercise 2: Clustering for segmentation pipeline 
 - Subscribe to /sensor_stick/point_cloud topic
